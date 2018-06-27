@@ -1,0 +1,19 @@
+body {
+  background: lightcoral; }
+
+.botao-primary {
+  display: inline-block;
+  border-radius: 15px;
+  padding: 15px;
+  border: none;
+  font-size: 1.5em;
+  color: snow;
+  background: black; }
+
+.botao-danger {
+  display: inline-block;
+  border-radius: 15px;
+  padding: 15px;
+  border: none;
+  font-size: 1.5em;
+  background: plum; }

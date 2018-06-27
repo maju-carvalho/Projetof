@@ -7,14 +7,17 @@
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "echo Start",
+    "start": "echo Start",
     "prestart": "echo PreStart",
     "poststart": "echo PostStart",
     "preinstall": "mkdirp src/components/bootstrap/ src/components/font-awesome/",
-    "postinstall": "cp -r node_modules/bootstrap/dist src/components/bootstrap/ && cp -r node_modules/font-awesome/css src/components/font-awesome/ && cp -r node_modules/font-awesome/fonts src/components/font-awesome/"
+    "postinstall": "cp -r node_modules/bootstrap/dist src/components/bootstrap/ && cp -r node_modules/font-awesome/css src/components/font-awesome/ && cp -r node_modules/font-awesome/fonts src/components/font-awesome/",
+    "nodesass": "node-sass"
   },
   "author": "Maju",
   "license": "ISC"
